@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#FFF",
+    backgroundColor: "#fff",
     borderWidth: 1,
     borderColor: "#e6e6f0",
     borderRadius: 8,
@@ -49,10 +49,10 @@ const styles = StyleSheet.create({
   },
 
   footer: {
+    marginTop: 24,
     backgroundColor: "#fafafc",
     padding: 24,
     alignItems: "center",
-    marginTop: 24,
   },
 
   price: {
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
   },
 
-  favoriteButtonIcon: {
+  favoriteButton: {
     backgroundColor: "#8257e5",
     width: 56,
     height: 56,
@@ -89,15 +89,16 @@ const styles = StyleSheet.create({
   contactButton: {
     backgroundColor: "#04d361",
     flex: 1,
-    flexDirection: "row",
+    height: 56,
     borderRadius: 8,
+    flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
     marginRight: 8,
   },
 
   contactButtonText: {
-    color: "#FFF",
+    color: "#fff",
     fontFamily: "Archivo_700Bold",
     fontSize: 16,
     marginLeft: 16,
